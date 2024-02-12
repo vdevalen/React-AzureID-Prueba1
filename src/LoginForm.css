@@ -1,0 +1,298 @@
+@import url(./typografy.css);
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.description {
+  width: 55%;
+  padding: 67px 50px 67px 67px;
+  background: var(--Secondary, #201547);
+  display: block;
+}
+
+.logo {
+  display: flex;
+  width: 136px;
+  height: 187px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 18.211px;
+}
+
+.logo__image {
+  width: 100%;
+}
+
+.logo--mobile {
+  width: 50%;
+  height: 48px;
+  display: none;
+}
+
+.titles {
+  font-family: "proximanova-bold";
+  color: #fff;
+  margin: 0;
+}
+
+.titles--large {
+  font-size: 45px;
+}
+
+.titles--medium {
+  font-size: 36px;
+}
+
+.titles--smedium {
+  font-size: 28px;
+}
+
+.titles--small {
+  font-size: 16px;
+}
+
+.content {
+  width: 100%;
+  padding-top: 65.5px;
+}
+
+.cards {
+  display: inline-flex;
+  gap: 32px;
+  align-items: center;
+  margin-top: 36px;
+  height: 334px;
+  width: 100%;
+  font-family: "proximanova-bold";
+}
+
+.cards .card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 33.3333333333%;
+  height: 100%;
+  color: #fff;
+}
+
+.cards .card__image {
+  width: 122px;
+  height: 112px;
+  margin: 0 auto;
+}
+
+.cards .card__title {
+  width: 100%;
+  margin-top: 16px;
+}
+
+.cards .card__description {
+  margin-top: 16px;
+  font-family: "proximanova-regular";
+  width: 100%;
+}
+
+.cards:first-child {
+  margin-left: 0;
+}
+
+.cards:last-child {
+  margin-right: 0;
+}
+
+.login {
+  width: 45%;
+  background: var(--Secondary-800, #100a23);
+  border: none;
+  padding: 36px;
+}
+
+.form {
+  width: 360px;
+  height: 432px;
+  margin: 296px 153px 296px 138px;
+  font-family: "proximanova-bold";
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form__title {
+  font-size: 36px;
+}
+
+.form__title--secondary {
+  color: var(--Main-Amarillo, #ffac2a);
+}
+
+.form__input {
+  width: 100%;
+  height: 40px;
+  padding: 0px 16px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  width: 328px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: var(--Base-Radius-Base, 4px);
+  border: 1px solid var(--Neutral-White, #fff);
+  background: var(--Secondary-800, #100a23);
+}
+
+.form__input--mail::-moz-placeholder {
+  background-image: url(./img/login_desktop/mailIcon.svg);
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  padding-left: 24px;
+  font-family: "proximanova-regular";
+  color: var(--Secondary-300, #8f8aa3);
+  font-size: 16px;
+}
+
+.form__input--mail::placeholder {
+  background-image: url(./img/login_desktop/mailIcon.svg);
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  padding-left: 24px;
+  font-family: "proximanova-regular";
+  color: var(--Secondary-300, #8f8aa3);
+  font-size: 16px;
+}
+
+.form__input--password::-moz-placeholder {
+  background-image: url(./img/login_desktop/lock.svg), url(./img/login_desktop/remove_red_eye.svg);
+  background-repeat: no-repeat;
+  background-position: left bottom, right bottom;
+  background-size: 16px 16px;
+  padding-left: 24px;
+  font-family: "proximanova-regular";
+  color: var(--Secondary-300, #8f8aa3);
+  font-size: 16px;
+}
+
+.form__input--password::placeholder {
+  background-image: url(./img/login_desktop/lock.svg), url(./img/login_desktop/remove_red_eye.svg);
+  background-repeat: no-repeat;
+  background-position: left bottom, right bottom;
+  background-size: 16px 16px;
+  padding-left: 24px;
+  font-family: "proximanova-regular";
+  color: var(--Secondary-300, #8f8aa3);
+  font-size: 16px;
+}
+
+.form__recover {
+  color: #fff;
+  font-family: "proximanova-regular";
+  font-size: 14px;
+  text-decoration-line: underline;
+  font-weight: 400;
+}
+
+.form__button {
+  margin: 0 auto;
+  width: 100%;
+  padding: 8px 0px;
+  font-family: "proximanova-bold";
+  font-size: 14px;
+  border-radius: 8px;
+  height: 40px;
+  letter-spacing: 0.25px;
+  border: none;
+}
+
+.form__button--enabled {
+  color: #201547;
+  background-color: #ffac2a;
+}
+
+.form__button--disabled {
+  background: var(--Neutral-Gray-200, #d2d1d4);
+  color: #a6a4a8;
+}
+
+.form__button--google {
+  background-color: #fff;
+  background-image: url(./img/login_desktop/google.svg);
+  background-repeat: no-repeat;
+  background-position: 21.5px;
+  padding: 10.5px 16px 10.5px 53.5px;
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.form__separator {
+  width: 100%;
+  background-color: #fff;
+}
+
+.form__text {
+  font-family: "proximanova-regular";
+  color: #fff;
+  font-size: 16px;
+  margin: 0 auto;
+  font-weight: 400;
+}
+
+.form__create {
+  font-family: "proximanova-regular";
+  margin: 0 auto;
+  margin-top: -2px;
+  color: #ffac2a;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+}
+
+@media only screen and (orientation: portrait) {
+  .description {
+    display: none;
+    width: 0%;
+  }
+
+  .login {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    padding: 128px 64px 64px 64px;
+  }
+
+  .logo {
+    margin: 0 auto;
+    height: auto;
+  }
+
+  .logo--mobile {
+    display: block;
+  }
+
+  .logo__image {
+    width: 100%;
+  }
+
+  .form {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+  }
+
+  .titles {
+    font-size: 60px;
+  }
+
+  .form__title {
+    font-size: 60px;
+  }
+}

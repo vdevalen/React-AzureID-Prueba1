@@ -2,8 +2,8 @@ import {LogLevel} from '@azure/msal-browser';
 
 export const msalConfig = {
     auth: {
-        clientId: 'c3744f00-57a4-465c-bcf2-57bca50f6750',
-        authority: 'https://login.microsoftonline.com/mariologika.onmicrosoft.com',
+        clientId: '91cea1cd-a1f4-4962-ad83-ca7d4404eda8',
+        authority: 'https://login.microsoftonline.com/logikaapp.onmicrosoft.com',
         postLogoutRedirectUri: '/',
         redirectUri: '/',
         navigateToLoginRequestUri: false,

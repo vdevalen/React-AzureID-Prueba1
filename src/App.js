@@ -1,3 +1,4 @@
+import LoginForm from './LoginForm';
 import './App.css';
 import { loginRequest } from "./Config";
 import { AuthenticatedTemplate, UnauthenticatedTemplate, useMsal, MsalProvider } from "@azure/msal-react";
@@ -41,6 +42,7 @@ const App = ({ instance }) => {
   return (
     <MsalProvider instance= {instance}>
       <WrappedView></WrappedView>
+      <LoginForm></LoginForm>
     </MsalProvider>
   );
 };

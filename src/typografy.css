@@ -1,0 +1,240 @@
+@font-face {
+    font-family: proximanova-black;
+    src: url("./fonts/Fontspring-DEMO-proximanova-black.otf") format("opentype");
+}
+
+@font-face {
+    font-family: proximanova-blackit;
+    src: url("./fonts/Fontspring-DEMO-proximanova-blackit.otf") format("opentype");
+}
+
+@font-face {
+    font-family: proximanova-bold;
+    src: url("./fonts/Fontspring-DEMO-proximanova-bold.otf") format("opentype");
+    unicode-range: U+20-21, U+3F, U+41-5A, U+61-7A;
+}
+
+@font-face {
+    font-family: proximanova-boldit;
+    src: url("./fonts/Fontspring-DEMO-proximanova-boldit.otf") format("opentype");
+}
+
+@font-face {
+    font-family: proximanova-extrabold;
+    src: url("./fonts/Fontspring-DEMO-proximanova-extrabold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: proximanova-extraboldit;
+    src: url("./fonts/Fontspring-DEMO-proximanova-extraboldit.otf") format("opentype");
+}
+
+@font-face {
+    font-family: proximanova-light;
+    src: url("./fonts/Fontspring-DEMO-proximanova-light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: proximanova-lightit;
+    src: url("./fonts/Fontspring-DEMO-proximanova-lightit.otf") format("opentype");
+}
+
+@font-face {
+    font-family: proximanova-medium;
+    src: url("./fonts/Fontspring-DEMO-proximanova-medium.otf") format("opentype");
+}
+
+/* @font-face {
+    src: url("./fonts/Fontspring-DEMO-proximanova-mediumit.otf") format("opentype");
+} */
+
+@font-face {
+    font-family: proximanova-regular;
+    src: url("./fonts/Fontspring-DEMO-proximanova-regular.otf") format("opentype");
+    unicode-range: U+20-21, U+3F, U+41-5A, U+61-7A;
+}
+
+@font-face {
+    font-family: proximanova-regularit;
+    src: url("./fonts/Fontspring-DEMO-proximanova-regularit.otf") format("opentype");
+}
+
+@font-face {
+    font-family: proximanova-semibold;
+    src: url("./fonts/Fontspring-DEMO-proximanova-semibold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: proximanova-semiboldit;
+    src: url("./fonts/Fontspring-DEMO-proximanova-semiboldit.otf") format("opentype");
+}
+
+@font-face {
+    font-family: proximanova-thin;
+    src: url("./fonts/Fontspring-DEMO-proximanova-thin.otf") format("opentype");
+}
+
+@font-face {
+    font-family: proximanova-thinit;
+    src: url("./fonts/Fontspring-DEMO-proximanova-thinit.otf") format("opentype");
+}
+
+@font-face {
+    font-family: proximanovacond-black;
+    src: url("./fonts/Fontspring-DEMO-proximanovacond-black.otf") format("opentype");
+}
+
+/* @font-face {
+    font-family: proximanovacondcond-blackit;
+    src: url("./fonts/Fontspring-DEMO-proximanovacondcond-blackit.otf") format("opentype");
+} */
+
+@font-face {
+    font-family: proximanovacondcond-bold;
+    src: url("./fonts/Fontspring-DEMO-proximanovacond-bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: proximanovacond-boldit;
+    src: url("./fonts/Fontspring-DEMO-proximanovacond-boldit.otf") format("opentype");
+}
+
+@font-face {
+    font-family: proximanovacond-extrabold;
+    src: url("./fonts/Fontspring-DEMO-proximanovacond-extrabold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: proximanovacond-extraboldit;
+    src: url("./fonts/Fontspring-DEMO-proximanovacond-extraboldit.otf") format("opentype");
+}
+
+@font-face {
+    font-family: proximanovacond-light;
+    src: url("./fonts/Fontspring-DEMO-proximanovacond-light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: proximanovacond-lightit;
+    src: url("./fonts/Fontspring-DEMO-proximanovacond-lightit.otf") format("opentype");
+}
+
+@font-face {
+    font-family: proximanovacond-medium;
+    src: url("./fonts/Fontspring-DEMO-proximanovacond-medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: proximanovacond-mediumit;
+    src: url("./fonts/Fontspring-DEMO-proximanovacond-mediumit.otf") format("opentype");
+}
+
+@font-face {
+    font-family: proximanovacond-regular;
+    src: url("./fonts/Fontspring-DEMO-proximanovacond-regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: proximanovacond-regularit;
+    src: url("./fonts/Fontspring-DEMO-proximanovacond-regularit.otf") format("opentype");
+}
+
+@font-face {
+    font-family: proximanovacond-semibold;
+    src: url("./fonts/Fontspring-DEMO-proximanovacond-semibold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: proximanovacond-semiboldit;
+    src: url("./fonts/Fontspring-DEMO-proximanovacond-semiboldit.otf") format("opentype");
+}
+
+@font-face {
+    font-family: proximanovacond-thin;
+    src: url("./fonts/Fontspring-DEMO-proximanovacond-thin.otf") format("opentype");
+}
+
+@font-face {
+    font-family: proximanovacond-thinit;
+    src: url("./fonts/Fontspring-DEMO-proximanovacond-thinit.otf") format("opentype");
+}
+
+@font-face {
+    font-family: proximanovaexcn-black;
+    src: url("./fonts/Fontspring-DEMO-proximanovaexcn-black.otf") format("opentype");
+}
+
+/* @font-face {
+    font-family: proximanovaexcncond-blackit;
+    src: url("./fonts/Fontspring-DEMO-proximanovaexcncond-blackit.otf") format("opentype");
+} */
+
+@font-face {
+    font-family: proximanovaexcncond-bold;
+    src: url("./fonts/Fontspring-DEMO-proximanovaexcn-bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: proximanovaexcn-boldit;
+    src: url("./fonts/Fontspring-DEMO-proximanovaexcn-boldit.otf") format("opentype");
+}
+
+@font-face {
+    font-family: proximanovaexcn-extrabold;
+    src: url("./fonts/Fontspring-DEMO-proximanovaexcn-extrabold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: proximanovaexcn-extraboldit;
+    src: url("./fonts/Fontspring-DEMO-proximanovaexcn-extraboldit.otf") format("opentype");
+}
+
+@font-face {
+    font-family: proximanovaexcn-light;
+    src: url("./fonts/Fontspring-DEMO-proximanovaexcn-light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: proximanovaexcn-lightit;
+    src: url("./fonts/Fontspring-DEMO-proximanovaexcn-lightit.otf") format("opentype");
+}
+
+@font-face {
+    font-family: proximanovaexcn-medium;
+    src: url("./fonts/Fontspring-DEMO-proximanovaexcn-medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: proximanovaexcn-mediumit;
+    src: url("./fonts/Fontspring-DEMO-proximanovaexcn-mediumit.otf") format("opentype");
+}
+
+@font-face {
+    font-family: proximanovaexcn-regular;
+    src: url("./fonts/Fontspring-DEMO-proximanovaexcn-regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: proximanovaexcn-regularit;
+    src: url("./fonts/Fontspring-DEMO-proximanovaexcn-regularit.otf") format("opentype");
+}
+
+@font-face {
+    font-family: proximanovaexcn-semibold;
+    src: url("./fonts/Fontspring-DEMO-proximanovaexcn-semibold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: proximanovaexcn-semiboldit;
+    src: url("./fonts/Fontspring-DEMO-proximanovaexcn-semiboldit.otf") format("opentype");
+}
+
+@font-face {
+    font-family: proximanovaexcn-thin;
+    src: url("./fonts/Fontspring-DEMO-proximanovaexcn-thin.otf") format("opentype");
+}
+
+@font-face {
+    font-family: proximanovaexcn-thinit;
+    src: url("./fonts/Fontspring-DEMO-proximanovaexcn-thinit.otf") format("opentype");
+}

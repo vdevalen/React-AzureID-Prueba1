@@ -1,0 +1,172 @@
+#api .heading {
+  display: none;
+}
+#api .divider {
+  display: none;
+}
+#api #localAccountForm {
+  max-width: 360px;
+}
+#api #localAccountForm .intro {
+  display: none;
+}
+#api #localAccountForm .error .pageLevel {
+  display: none;
+}
+#api #localAccountForm .entry {
+  max-width: 100%;
+}
+#api #localAccountForm .entry .entry-item {
+  width: 100%;
+}
+#api #localAccountForm .entry .entry-item label {
+  display: none;
+}
+#api #localAccountForm .entry .entry-item .password-label {
+  display: none;
+}
+#api #localAccountForm .entry .entry-item input {
+  width: 100%;
+  height: 40px;
+  padding: 0px 16px;
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  width: 303px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: var(--Base-Radius-Base, 4px);
+  border: 1px solid var(--Neutral-White, #FFF);
+  background: var(--Secondary-800, #100A23);
+}
+#api #localAccountForm .entry .entry-item input:-webkit-autofill,
+#api #localAccountForm .entry .entry-item input:-webkit-autofill:hover,
+#api #localAccountForm .entry .entry-item input:-webkit-autofill:focus,
+#api #localAccountForm .entry .entry-item input:-webkit-autofill:active {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #ffffff;
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+}
+#api #localAccountForm .entry .entry-item #email {
+  background-image: url(./img/login_desktop/mailIcon.svg);
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  background-position: 16px;
+  padding-left: 40px;
+  padding-right: 16px;
+  font-family: "proximanova-regular";
+  color: var(--Secondary-300, #8F8AA3);
+  font-size: 16px;
+  color: var(--Neutral-White, #FFF);
+}
+#api #localAccountForm .entry .entry-item #password {
+  background-image: url(./img/login_desktop/lock.svg), url(./img/login_desktop/remove_red_eye.svg);
+  background-repeat: no-repeat;
+  background-position: 16px, calc(100% - 16px);
+  background-size: 16px 16px;
+  padding-left: 40px;
+  font-family: "proximanova-regular";
+  color: var(--Secondary-300, #8F8AA3);
+  font-size: 16px;
+  color: var(--Neutral-White, #FFF);
+}
+#api #localAccountForm .entry .entry-item .forgot-password {
+  margin-top: 16px;
+}
+#api #localAccountForm .entry .entry-item #forgotPassword {
+  color: #fff;
+  font-family: "proximanova-regular";
+  font-size: 14px;
+  text-decoration-line: underline;
+  font-weight: 400;
+}
+#api #localAccountForm .entry .working {
+  display: none;
+}
+#api #localAccountForm .entry .buttons {
+  margin-top: 16px;
+}
+#api #localAccountForm .entry .buttons #next {
+  margin: 0 auto;
+  border: none;
+  width: 100%;
+  padding: 8px 0px;
+  font-family: "proximanova-bold";
+  font-size: 14px;
+  border-radius: 8px;
+  height: 40px;
+  letter-spacing: 0.25px;
+  color: #201547;
+  background-color: #FFAC2A;
+}
+#api #localAccountForm .divider {
+  display: none;
+}
+#api #localAccountForm .create {
+  font-family: "proximanova-regular";
+  color: #fff;
+  font-size: 16px;
+  margin: 0 auto;
+  font-weight: 400;
+  margin: 0 auto;
+}
+#api #localAccountForm .create p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+#api #localAccountForm .create #createAccount {
+  font-family: "proximanova-regular";
+  margin: 0 auto;
+  margin-top: -2px;
+  color: #FFAC2A;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+}
+@media only screen and (orientation: portrait) {
+  #api #localAccountForm {
+    padding-top: 32px;
+    width: 100%;
+    max-width: none;
+  }
+  #api #localAccountForm .entry .entry-item input {
+    padding: 0;
+    height: 100px;
+  }
+  #api #localAccountForm .entry .entry-item input#email {
+    width: calc(100% - 80px);
+    font-size: 32px;
+    background-size: 32px 32px;
+    padding-left: 64px;
+  }
+  #api #localAccountForm .entry .entry-item input#password {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    width: calc(100% - 64px);
+    font-size: 32px;
+    background-size: 32px 32px;
+    padding-left: 64px;
+  }
+  #api #localAccountForm .entry .entry-item .forgot-password {
+    margin-bottom: 32px;
+  }
+  #api #localAccountForm .entry .entry-item #forgotPassword {
+    font-size: 32px;
+  }
+  #api #localAccountForm .entry .buttons {
+    height: 100px;
+  }
+  #api #localAccountForm .entry .buttons #next {
+    height: 100%;
+    font-size: 32px;
+  }
+  #api #localAccountForm .create {
+    font-size: 32px;
+  }
+  #api #localAccountForm .create p {
+    gap: 32px;
+  }
+}
