@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+/* Agrega estilos personalizados aquí */
+
+.login-container {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.login-container button {
+  background-color: #0078d4;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #005a9e;
+}
